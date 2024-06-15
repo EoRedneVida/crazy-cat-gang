@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/*--------------------- CONFIGURAÇÃO GLOBAL -----------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    height: 100%;
+    background-color: #FFCB04;
+}
+/*----------------------- CONFIGURAÇÃO HEADER --------------------------*/
+header {
+    height: 100px;
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header > .logo-header {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.topnav-menu li {
+    padding: 50px ;
+    display: inline-block;
+    list-style: none;
+}
+
+.topnav-menu li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-menu li > a:hover {
+    text-decoration: underline;
+}
+
+menu > div#sign-in-btn > a{
+    text-decoration: none;
+    color: black;
+    size: 40px;
+}
+
+
+/* --------------------- CONFIGURAÇÃO DO CONTEÚDO PRINCIPAL/MAIN CONTENT ------------------- */
+body > .welcome {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body > .welcome > h1 {
+    font-size: 3em;
+}
+
+body > .welcome > h2 {
+    font-size: 2em;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #FFCB04;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main > .itens {
+
+    width: 500px;
+    height: 600px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+
+main > .itens > img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: none;
+}
+
+main > .itens > div {
+    background: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+main > .itens > h1 {
+    font-size: 3rem;
+}
+
+main > .itens > h2 {
+    font-size: 3rem;
+    counter-reset: #aaaa;
+}
+
+main > .itens > div > span {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+main > .itens > div > a {
+    background-color: black;
+    color: #FFCB04;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    height: 20px;
+    border: solid 2px black;
+    border: 10px;
+    padding: 4px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+main > .itens > div > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* ---------------- CONFIGURAÇÃO DO RODAPÉ --------------------*/
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+footer > img {
+    padding: 20px;
+}
+
+footer > .topicos > ul {
+    columns: 2;
+    padding: 70px;
+}
+
+footer > .topicos > ul > li > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer > .topicos > ul > li > a:hover {
+    text-decoration: underline;
+}
