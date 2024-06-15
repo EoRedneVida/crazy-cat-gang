@@ -146,17 +146,20 @@ main > section.lojinha-page {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
     /*padding-left: 600px;*/
 } 
 
 main > section.lojinha-page > div.anuncio-loja > p {
     font-size: 2.5em;
     font-weight: normal;
+    margin-top: 30px;
 }
 
 main > section.lojinha-page > div.anuncio-loja > h1 {
     font-size: 4em;
     font-weight: bolder;
+    margin-top: 10px;
 }
 
 main > section.lojinha-page > a {
