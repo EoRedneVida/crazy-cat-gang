@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+
+
+/*--------------------- CONFIGURAÇÃO GLOBAL -----------------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*----------------------- CONFIGURAÇÃO HEADER --------------------------*/
+header {
+    height: 100px;
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header > .logo-header {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.topnav-menu li {
+    padding: 50px ;
+    display: inline-block;
+    list-style: none;
+}
+
+.topnav-menu li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-menu li > a:hover {
+    text-decoration: underline;
+}
+
+menu > div#sign-in-btn > a{
+    text-decoration: none;
+    color: white;
+    border: solid 10px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+
+/* -------------------- CONFIGURAÇÃO DO CONTEÚDO PRINCIPAL/MAIN CONTENT ----------------------- */
+main {
+    background-color: #f5b42c;
+    height: 100%;
+    padding-top: 50px;
+    position: relative;
+}
+main > h1 {
+    text-align: center;
+}
+
+main > .img-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 300px 0px 300px;
+}
+
+main > h1#titulo {
+    color: black;
+    display: inline;
+    font-size: 5em;
+    padding-left: 700px;
+}
+
+main > .plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    columns: 3;
+}
+
+main > .plans > .silver {
+    border: solid 2px  black;
+    background-color: #FFCB04;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+main > .plans > .silver > h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+main > .plans > .silver > h2 {
+    text-align: justify;
+    padding: 0px 30px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main > .plans > .silver > ul {
+    text-align: justify;
+    font-size: 1.3em;
+    padding: 40px 30px 0px 30px;
+}
+
+main > .plans > .silver > input {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+main > .plans > .gold {
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #FFCB04;
+    width: 400px;
+    height: 600px;
+}
+
+main > .plans > .gold > h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+main > .plans > .gold > h2 {
+    text-align: justify;
+    padding: 0px 30px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main > .plans > .gold > ul {
+    text-align: justify;
+    font-size: 1.3em;
+    padding: 40px 30px 0px 30px;
+}
+
+main > .plans > .gold > input {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: black;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+main > .plans > .platinum {
+    width: 400px;
+    height: 700px;
+    display: block;
+    background-color: #FFCB04;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+main > .plans > .platinum > h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+main > .plans > .platinum > h2 {
+    text-align: justify;
+    padding: 0px 30px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main > .plans > .platinum > ul {
+    text-align: justify;
+    font-size: 1.3em;
+    padding: 40px 30px 0px 30px;
+}
+
+main > .plans > .platinum > input {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: black;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+main > .text{
+    padding: 30px 0px 30px 50px;
+}
+
+main > img {
+    position: absolute;
+    top: 72%;
+    left: 60%;
+    transform: translate(-60%, 60%);
+}
+
+
+/* ---------------- CONFIGURAÇÃO DO RODAPÉ --------------------*/
+footer {
+    background-color: #f5b42c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+footer > img {
+    padding: 20px;
+}
+
+footer > .topicos > ul {
+    columns: 2;
+    padding: 70px;
+}
+
+footer > .topicos > ul > li > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer > .topicos > ul > li > a:hover {
+    text-decoration: underline;
+}
