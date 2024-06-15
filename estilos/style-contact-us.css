@@ -1,0 +1,150 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;  
+}
+
+main{
+    width: 100vw;
+}
+
+
+header {
+    height: 100px;
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header > .logo-header {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.topnav-menu li {
+    padding: 50px ;
+    display: inline-block;
+    list-style: none;
+}
+
+.topnav-menu li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-menu li > a:hover {
+    text-decoration: underline;
+}
+
+menu > div#sign-in-btn > a{
+    text-decoration: none;
+    color: white;
+    border: solid 10px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main {
+    background-color: #f5b42c;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 50px;
+}
+
+.infos {
+    height: 100%;
+    width: 600px;
+
+}
+
+main > .infos > input {
+    background: none;
+}
+
+main > .infos > input#nome{
+    padding: 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+main > .infos > input#email {
+    padding: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 427px;
+}
+
+main > .infos > input#motivo {
+    height: 200px;
+    width: 467px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+main > .infos > input#enviar {
+    height: 50px;
+    width: 472px;
+    background-color: black;
+    color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+main > .infos > input::placeholder {
+    color: white;
+}
+
+main > .infos > img {
+    width: 80%;
+}
+
+main > img {
+    width: 40%;
+    height: 60%;
+}
+
+
+footer {
+    width: 100vw;
+    background-color: #f5b42c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+footer > img {
+    padding: 20px;
+}
+
+footer > .topicos > ul {
+    columns: 2;
+    padding: 70px;
+}
+
+footer > .topicos > ul > li > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer > .topicos > ul > li > a:hover {
+    text-decoration: underline;
+}

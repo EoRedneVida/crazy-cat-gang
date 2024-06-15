@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;  
+}
+
+main{
+    width: 98%;
+}
+
+
+header {
+    height: 100px;
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header > .logo-header {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.topnav-menu li {
+    padding: 50px ;
+    display: inline-block;
+    list-style: none;
+}
+
+.topnav-menu li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-menu li > a:hover {
+    text-decoration: underline;
+}
+
+menu > div#sign-in-btn > a{
+    text-decoration: none;
+    color: white;
+    border: solid 15px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+body {
+    background-color: #f5b42c;
+}
+
+section.img-gato {
+    margin: 0px;
+}
+
+main > section.content1 {
+    background-color: #f5b42c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+main > section.content1 > div > h1{
+    font-size: 3.5em;
+}
+
+main > section.content1 > div > p {
+    color: white;
+    font-size: 2em;
+}
+
+section.content1 > div > a {
+    text-decoration: none;
+    color: white;
+    border: solid 15px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main > section.content2 {
+    background-color: #f5b42c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+section.content2 > div > a {
+    text-decoration: none;
+    color: white;
+    border: solid 15px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main > section.content2 > div > h1 {
+    font-size: 3em;
+}
+
+main > section.content2 > div > p {
+    color: white;
+    font-size: 1.5em;
+}
+
+main > h1 {
+    padding: 50px;
+    font-size: 2.5em;
+}
+
+main > section.final-content1 {
+    padding-left: 60px;
+}
+
+main > section.final-content1 > ul {
+    padding: 20px;
+    list-style: none;
+    columns: 2;
+}
+
+main > section.final-content1 > ul > li > a {
+    text-decoration: none;
+    color: white;
+    border: solid 10px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+main > section.lojinha-page {
+    width: 100vw;
+    height: 280px;
+    background-color: #FFCB04;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*padding-left: 600px;*/
+} 
+
+main > section.lojinha-page > div.anuncio-loja > p {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+main > section.lojinha-page > div.anuncio-loja > h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+main > section.lojinha-page > a {
+    margin: 90px;
+    padding: 40px;
+    text-decoration: none;
+    color: white;   
+    border: solid 5px black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+footer > img {
+    padding: 20px;
+}
+
+footer > .topicos > ul {
+    columns: 2;
+    padding: 70px;
+}
+
+footer > .topicos > ul > li > a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+footer > .topicos > ul > li > a:hover {
+    text-decoration: underline;
+}
