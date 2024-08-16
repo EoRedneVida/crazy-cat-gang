@@ -67,19 +67,27 @@ main > h1 {
     text-align: center;
 }
 
-main > .img-btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+.gato-sentado {
+    position: relative;
+    left: 440px;
+    top: 30px;
     margin: 0px;
-    padding: 0px 300px 0px 300px;
+    padding: 0px;
+    /* border: none; */
+}
+
+.gato-deitado {
+    position: relative;
+    bottom: 130px;
+    left: 1199px;
 }
 
 main > h1#titulo {
     color: black;
-    display: inline;
     font-size: 5em;
-    padding-left: 700px;
+    text-align: center;
 }
 
 main > .plans {
@@ -99,7 +107,7 @@ main > .plans > .silver {
 }
 
 main > .plans > .silver > h1 {
-    text-align: center;
+    text-align: start;
     padding: 40px;
     font-size: 2.5em;
     font-weight: normal;
@@ -140,7 +148,7 @@ main > .plans > .gold {
 }
 
 main > .plans > .gold > h1 {
-    text-align: center;
+    text-align: start;
     padding: 40px;
     font-size: 2.5em;
     font-weight: normal;
@@ -182,7 +190,7 @@ main > .plans > .platinum {
 }
 
 main > .plans > .platinum > h1 {
-    text-align: center;
+    text-align: start;
     padding: 40px;
     font-size: 2.5em;
     font-weight: normal;
