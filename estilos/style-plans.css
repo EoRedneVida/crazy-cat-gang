@@ -227,7 +227,7 @@ main > .text{
 
 main > img {
     position: absolute;
-    top: 72%;
+    top: 73%;
     left: 60%;
     transform: translate(-60%, 60%);
 }
